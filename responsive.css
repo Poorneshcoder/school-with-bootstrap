@@ -34,6 +34,10 @@
         height: auto;
       }
 
+      .class .container {
+        margin-left: -3%;
+    }
+
       .class-cards-1-content{
         width: 110%;
         height: auto;
@@ -105,6 +109,9 @@
       .record{
         height: auto;
       }
+      .class .container {
+        margin-left: 1%;
+    }
       .class .dog-zoom-in img{
         display: none;
       }
@@ -205,6 +212,9 @@
       .record img{
         display: none;
       }
+      .class .container {
+        margin-left: -2%;
+    }
       .class .dog-zoom-in img{
         display: none;
       }
@@ -305,6 +315,9 @@
       .record img{
         display: none;
       }
+      .class .container {
+        margin-left: -3%;
+    }
       .class .dog-zoom-in img{
         display: none;
       }

@@ -1,8 +1,13 @@
 @media only screen and (min-width: 701px) and (max-width: 768px) {
-    .slides img{
+
+    .navbar-toggler{
         width: auto;
-        height: 100vh;
-        /* position: absolute; */
+    }
+    .slides img{
+        width: 100%;
+      }
+      .hero-content, .lolypop-zoom-in img, .class .dog-zoom-in img, .car-2-img {
+        display: none;
       }
 
       .about-section {
@@ -68,13 +73,14 @@
     .top-bar{
         display: none;
     }
-    .slides img{
+    .navbar-toggler{
         width: auto;
-        height: 80vh;
-        /* position: absolute; */
+    }
+    .slides img{
+        width: 100%;
       }
-      .hero-content{
-        margin-top: -150%;
+      .hero-content, .lolypop-zoom-in img {
+        display: none;
       }
       .service .service-content h1 {
         font-size: 36px;
@@ -154,6 +160,11 @@
     .appointment .content h1 {
         font-size: 32px;
     }
+
+    .sliding-cards .card-1 img {
+        width: 130%;
+        margin-left: -20px;
+    }
 }
 
 @media only screen and (min-width: 362px) and (max-width: 461px) {
@@ -161,10 +172,15 @@
     .top-bar{
         display: none;
     }
-    .slides img{
+    .navbar-toggler{
         width: auto;
-        height: 100vh;
+    }
+    .slides img{
+        width: 100%;
         /* position: absolute; */
+      }
+      .hero-content{
+        display: none;
       }
       .service .service-content h1 {
         font-size: 30px;
@@ -267,18 +283,18 @@
     .top-bar{
         display: none;
     }
-    .slides img{
+    .navbar-toggler{
         width: auto;
-        height: 100vh;
+    }
+    .slides img{
+        width: 100%;
+        /* height: 100vh; */
         /* position: absolute; */
       }
+      .hero-content, .rotate-star, .lolypop-zoom-in{
+        display: none;
+      }
 
-      .rotate-star{
-        display: none;
-      }
-      .lolypop-zoom-in{
-        display: none;
-      }
       .service .service-content h1 {
         font-size: 24px;
     }
@@ -357,13 +373,13 @@
     }
     .appointment .content{
         margin-top: 20px;
-      }
-      .appointment .content h4{
         text-align: center;
       }
       .appointment .content h1 {
         font-size: 32px;
-        text-align: center;
+    }
+    .appointment .contact input {
+        width: 90%;
     }
 }
 
@@ -371,36 +387,39 @@
     .top-bar{
         display: none;
     }
-    .slides img{
+    .navbar-toggler{
         width: auto;
-        height: 100vh;
+    }
+    .navbar-brand{
+        width: 120px;
+    }
+    .slides img{
+        width: 100%;
+        height: auto;
         /* position: absolute; */
       }
-      /* .hero-content {
-        margin-top: 500%;
-      } */
-      .hero-content p {
+      .hero-content {
+        display: none;
+      }
+      /* .hero-content p {
         font-size: 20px;
         letter-spacing: 1px;
         margin-bottom: 10px;
     }
     .hero-content h1 span {
         font-size: 60px;
-    }
+    } */
 
     .service .service-content h1 {
         font-size: 20px;
     }
     .about-section {
         padding: 50px 0px;
-    }
-    .about-content h2 {
         text-align: center;
     }
     
     .about-content h1 {
         font-size: 28px;
-        text-align: center;
         padding: 10px;
     }
     .about-content p {
@@ -482,8 +501,6 @@
     }
     .appointment .content{
         margin-top: 20px;
-      }
-      .appointment .content h4{
         text-align: center;
       }
       .appointment .contact input {
@@ -496,16 +513,22 @@
     .appointment .content h1 {
         font-size: 24px;
         padding: 10px;
-        text-align: center;
     }
     .staff .content h1 {
         padding: 10px;
+    }
+    .sliding-cards .card-1 img {
+        width: 150%;
+        margin-left: -25px;
     }
 }
 
 @media only screen and (max-width: 241px) {
     .top-bar{
         display: none;
+    }
+    .navbar-toggler{
+        width: auto;
     }
     .slides img{
         width: auto;

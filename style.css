@@ -141,7 +141,7 @@ button a{
   }
   
   .slides img{
-    width: 100%;
+    width: auto;
     height: auto;
     /* position: absolute; */
   }
@@ -196,15 +196,6 @@ button a{
 }
 
 
-@media screen and (min-width:318px) and (max-width: 770px) {
-
-    .slides img{
-        width: auto;
-        height: 100vh;
-        /* position: absolute; */
-      }
-    
-}
 
 /* section-2  service section */
 

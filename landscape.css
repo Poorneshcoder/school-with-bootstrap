@@ -1,0 +1,307 @@
+/* landscape media quearies for Apple iPhone 5 emulator */
+
+@media only screen 
+and (min-width:462px) 
+and (max-width:604px)  
+and (orientation:landscape){
+
+    .navbar{
+        padding-bottom: 100px;
+    }
+    .hero-content{
+        margin-top: 100%;
+        padding-top: 50%;
+    }
+    .slides img {
+        height: 100vh;
+    }
+    .hero-content p {
+        font-size: 20px;
+        letter-spacing: 0px;
+        margin-bottom: 5px;
+    }
+    .hero-content h1 {
+        margin-bottom: 5px;
+    }
+    .hero-content h1 span {
+        font-size: 44px;
+    }
+}
+
+/* landscape media queary for mobile for Nokia Lumia 920 emulator */
+
+@media screen 
+and (min-width: 701px) 
+and (max-width:768px)
+and (orientation:landscape){
+    .top-bar{
+        display: none;
+    }
+    .hero-content p {
+        letter-spacing: 0px;
+        margin-bottom: 10px;
+    }
+    .service .service-content h1 {
+        font-size: 32px;
+    }
+}
+
+/* landscape media queary for mobile for htc one emulator */
+
+@media only screen
+ and (min-width: 604px) 
+ and (max-width: 700px){
+    .top-bar{
+        display: none;
+    }
+    .hero-content{
+        margin-top: 10%;
+    }
+    .hero-content p {
+        letter-spacing: 0px;
+        margin-bottom: 10px;
+    }
+    .hero-content h1 {
+        font-weight: bold;
+        margin-bottom: 0px;
+    }
+    .service .service-content h1 {
+        font-size: 34px;
+    }
+    .about-section {
+        padding: 50px 0px;
+        text-align: center;
+ }
+    .about-content h1 {
+        font-size: 32px;
+    }
+    .working-boxs{
+        height: auto;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .working-box-1{
+        margin-top: -40px;
+        flex: 40%;
+        height: auto;
+        padding: 10px;
+    }
+    .working-box-1 span.text {
+        font-size: 1em;
+        line-height: 20px;
+      }
+      .record{
+        height: auto;
+    }
+    .class .dog-zoom-in img {
+        display: none;
+    }
+    .class-cards-1-content {
+        width: 115%;
+    }
+    .appointment .contact input {
+        width: 90%;
+    }
+    .appointment .content{
+        text-align: center;
+    }
+    .appointment .content h1 {
+        font-size: 36px;
+    }
+    .car-2-img {
+        display: none;
+    }
+    .blog-scroll .sliding-cards{
+        grid-auto-columns: calc((100% / 2) - 12px);
+        gap: 30px;
+      }
+      .blog .cloud-img{
+        display: none;
+      }
+      .blog .apple-img{
+        margin-top: 35px;
+        padding-left: 30px;
+      }
+      .blog .content h1 {
+        margin-bottom: -20%;
+    }
+
+
+}
+
+@media screen and (min-width: 769px) and (max-width:964px){
+    .slides img {
+        width: 100%;
+        height: 86vh;
+        /* position: absolute; */
+    }
+
+    .about-section {
+        padding: 50px 0px;
+        text-align: center;
+    }
+    .about-content h1 {
+        font-size: 38px;
+    }
+    .slider-container {
+        margin-left: 15%;
+    }
+
+    .working-boxs{
+        height: auto;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .working-box-1{
+        margin-top: -40px;
+        flex: 40%;
+        height: auto;
+        padding: 10px;
+    }
+    .working-box-1 span.text {
+        font-size: 1em;
+        line-height: 20px;
+      }
+      .record{
+        height: auto;
+      }
+      .class-cards-1-content{
+        width: 110%;
+        height: auto;
+    }
+
+      .blog-scroll .sliding-cards{
+        grid-auto-columns: calc((100% / 2) - 12px);
+        gap: 30px;
+      }
+      .blog .cloud-img{
+        display: none;
+      }
+
+      .appointment .content{
+        text-align: center;
+        }
+        .appointment .content h1 {
+            font-size: 36px;
+        }
+}
+
+ /* landscape media quearies for google nexus 7 emulator */
+
+ @media only screen 
+ and (min-width: 965px)
+ and (max-width: 1022px) {
+
+    .hero-content p {
+        margin-bottom: 24px;
+    }
+    .hero-content button {
+        margin-bottom: 100px;
+    }
+    .about-section {
+        padding: 50px 0px;
+        text-align: center;
+    }
+    .about-content h1 {
+        font-size: 48px;
+    }
+    .slider-container {
+        margin-left: 15%;
+    }
+    .working-boxs{
+        height: auto;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .working-box-1{
+        margin-top: -40px;
+        flex: 40%;
+        height: auto;
+        padding: 10px;
+    }
+    .working-box-1 span.text {
+        font-size: 1em;
+        line-height: 20px;
+      }
+      .record{
+        height: auto;
+      }
+      .class-cards-1-content {
+        width: 110%;
+    }
+    .appointment .contact input{
+        width: 43%;
+    }
+    .appointment .content{
+        text-align: center;
+    }
+    .appointment .content h1 {
+        font-size: 38px;
+    }
+    .blog-scroll .sliding-cards{
+        grid-auto-columns: calc((100% / 2) - 12px);
+        gap: 30px;
+      }
+      .blog .cloud-img{
+        display: none;
+      }
+      .blog .apple-img{
+        margin-left: -100px;
+      }
+ }
+
+
+  /* landscape for Apple iPad mini emulator */
+
+  @media only screen
+  and (min-width: 1023px)
+  and (max-width: 1200px){
+    .top-bar-1 p{
+        font-size: 14px;
+    }
+    .logo img{
+        width: auto;
+    }
+    .header-bar-section .links button, .header-bar-section .links .fa-magnifying-glass,
+    .header-bar-section .links .fa-bars{
+        display: none;
+    }
+    .navbar-expand-lg .navbar-nav .nav-link {
+        margin-left: 0px;
+    }
+    [type=button]:not(:disabled), [type=reset]:not(:disabled), [type=submit]:not(:disabled), button:not(:disabled) {
+        margin-left: 5px;
+    }
+    .header-bar-section .links ul li {
+        padding: 0px;
+    }
+    .header img {
+        margin-top: -10px;
+    }
+
+    .hero-content {
+        margin-top: -75%;
+    }
+    .hero-content p {
+        font-size: 24px;
+        letter-spacing: 1px;
+        margin-bottom: 0px;
+        margin-top: 80px;
+    }
+
+    .appointment .contact input {
+        width: 90%;
+    }
+    .blog-scroll .sliding-cards {
+        grid-auto-columns: calc((100% / 2) - 12px);
+        gap: 32px;
+    }
+    .blog .cloud-img {
+        display: none;
+    }
+
+
+
+
+
+  }

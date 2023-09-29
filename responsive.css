@@ -1,0 +1,578 @@
+@media only screen and (min-width: 701px) and (max-width: 768px) {
+    .slides img{
+        width: auto;
+        height: 100vh;
+        /* position: absolute; */
+      }
+
+      .about-section {
+        padding: 50px 0px;
+        text-align: center;
+    }
+    .about-content h1 {
+        font-size: 38px;
+    }
+    .slider-container {
+        margin-left: 15%;
+    }
+      .working-boxs{
+        height: auto;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .working-box-1{
+        margin-top: -40px;
+        flex: 40%;
+        height: auto;
+        padding: 10px;
+    }
+    .working-box-1 span.text {
+        font-size: 1em;
+        line-height: 20px;
+      }
+      .record{
+        height: auto;
+      }
+
+      .class-cards-1-content{
+        width: 110%;
+        height: auto;
+    }
+
+      .blog-scroll .sliding-cards{
+        grid-auto-columns: calc((100% / 2) - 12px);
+        gap: 30px;
+      }
+      .blog .cloud-img{
+        display: none;
+      }
+      .blog .apple-img{
+        margin-left: -100px;
+      }
+      .appointment .contact input {
+        width: 43%;
+    }
+    .appointment .content{
+        text-align: center;
+    }
+    .appointment .content h1 {
+        font-size: 36px;
+    }
+}
+
+@media only screen and (min-width: 462px) and (max-width: 604px) {
+    .top-bar{
+        display: none;
+    }
+    .slides img{
+        width: auto;
+        height: 80vh;
+        /* position: absolute; */
+      }
+      .hero-content{
+        margin-top: -150%;
+      }
+      .service .service-content h1 {
+        font-size: 36px;
+    }
+    .about-section {
+        padding: 50px 0px;
+        text-align: center;
+    }
+
+    .about-content h1 {
+        font-size: 32px;
+    }
+
+      .slider-container{
+        margin-top: 20px;
+      }
+      .working-boxs{
+        height: auto;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .working-box-1{
+        margin-top: -40px;
+        flex: 40%;
+        height: auto;
+        padding: 10px;
+    }
+    .working-box-1 span.text {
+        font-size: 1em;
+        line-height: 20px;
+      }
+      .record{
+        height: auto;
+      }
+      .class .dog-zoom-in img{
+        display: none;
+      }
+
+      .class-cards-1-content{
+        width: 110%;
+        height: auto;
+    }
+
+      .blog-scroll .sliding-cards{
+        grid-auto-columns: calc((100% / 2) - 12px);
+        gap: 30px;
+      }
+      .blog .cloud-img{
+        display: none;
+      }
+
+      .appointment .content{
+        margin-top: 20px;
+      }
+      .appointment .content h4{
+        text-align: center;
+      }
+      .car-2-img{
+        display: none;
+      }
+      .blog .apple-img{
+        display: none;
+    }
+    
+    .appointment .contact input {
+        width: 90%;
+    }
+    .appointment .content{
+        text-align: center;
+    }
+    .appointment .content h1 {
+        font-size: 32px;
+    }
+}
+
+@media only screen and (min-width: 362px) and (max-width: 461px) {
+    
+    .top-bar{
+        display: none;
+    }
+    .slides img{
+        width: auto;
+        height: 100vh;
+        /* position: absolute; */
+      }
+      .service .service-content h1 {
+        font-size: 30px;
+    }
+
+      .rotate-star{
+        display: none;
+      }
+      .lolypop-zoom-in{
+        display: none;
+      }
+
+      .about-section {
+        padding: 50px 0px;
+        text-align: center;
+    }
+    .about-content h1 {
+        font-size: 38px;
+    }
+
+      .about-section .slider-container{
+        width: auto;
+        margin-top: 20px;
+      }
+
+      .working-boxs{
+        margin-left: 40px;
+        margin-top: 225px;
+        /* margin: auto; */
+        height: auto;
+        width: 80%;
+        flex-direction: column;
+    }
+    .working-box-1{
+        margin-top: -40px;
+        width: 80%;
+        height: auto;
+        padding: 10px;
+    }
+    .working-box-1 span.text {
+        font-size: 1em;
+        line-height: 20px;
+      }
+      .record{
+        width: auto;
+        height: 86vh;
+      }
+      .record img{
+        display: none;
+      }
+      .class .dog-zoom-in img{
+        display: none;
+      }
+
+      .class-cards-1-content{
+        width: 110%;
+        height: auto;
+    }
+      .blog-scroll .sliding-cards{
+        grid-auto-columns: calc((100% / 1) - 12px);
+        gap: 50px;
+        margin-left: 65px;
+      }
+      .blog .cloud-img{
+        display: none;
+      }
+      .blog .apple-img{
+        display: none;
+      }
+      .blog .content{
+        width: 100%;
+      }
+      .car-2-img{
+        display: none;
+      }
+      .blog .apple-img{
+        display: none;
+    }
+    .appointment .content{
+        margin-top: 20px;
+        text-align: center;
+      }
+      .appointment .contact input {
+        width: 90%;
+    }
+
+    .appointment .content h1 {
+        font-size: 38px;
+    }
+}
+
+@media only screen and (min-width: 322px) and (max-width: 361px) {
+    
+    .top-bar{
+        display: none;
+    }
+    .slides img{
+        width: auto;
+        height: 100vh;
+        /* position: absolute; */
+      }
+
+      .rotate-star{
+        display: none;
+      }
+      .lolypop-zoom-in{
+        display: none;
+      }
+      .service .service-content h1 {
+        font-size: 24px;
+    }
+    .about-section {
+        padding: 50px 0px;
+        text-align: center;
+    }
+    .about-content h1 {
+        font-size: 32px;
+        padding: 10px;
+    }
+
+      .about-section .slider-container{
+        width: auto;
+        margin-top: 20px;
+      }
+
+      .working-boxs{
+        margin-left: 40px;
+        margin-top: 225px;
+        /* margin: auto; */
+        height: auto;
+        width: 80%;
+        flex-direction: column;
+    }
+    .working-box-1{
+        margin-top: -40px;
+        width: 80%;
+        height: auto;
+        padding: 10px;
+    }
+    .working-box-1 span.text {
+        font-size: 1em;
+        line-height: 20px;
+      }
+      .record{
+        width: auto;
+        height: 100vh;
+      }
+      .record img{
+        display: none;
+      }
+      .class .dog-zoom-in img{
+        display: none;
+      }
+
+      .class-cards-1-content{
+        width: 110%;
+        height: auto;
+    }
+      .blog-scroll .sliding-cards{
+        grid-auto-columns: calc((100% / 1) - 12px);
+        gap: 50px;
+        margin-left: 65px;
+      }
+      .blog .cloud-img{
+        display: none;
+      }
+      .blog .apple-img{
+        display: none;
+      }
+      .blog .content{
+        width: 100%;
+      }
+      .car-2-img{
+        display: none;
+      }
+      .blog .apple-img{
+        display: none;
+    }
+    .appointment .content{
+        margin-top: 20px;
+      }
+      .appointment .content h4{
+        text-align: center;
+      }
+      .appointment .content h1 {
+        font-size: 32px;
+        text-align: center;
+    }
+}
+
+@media only screen and (min-width: 242px) and (max-width: 320px) {
+    .top-bar{
+        display: none;
+    }
+    .slides img{
+        width: auto;
+        height: 100vh;
+        /* position: absolute; */
+      }
+      /* .hero-content {
+        margin-top: 500%;
+      } */
+      .hero-content p {
+        font-size: 20px;
+        letter-spacing: 1px;
+        margin-bottom: 10px;
+    }
+    .hero-content h1 span {
+        font-size: 60px;
+    }
+
+    .service .service-content h1 {
+        font-size: 20px;
+    }
+    .about-section {
+        padding: 50px 0px;
+    }
+    .about-content h2 {
+        text-align: center;
+    }
+    
+    .about-content h1 {
+        font-size: 28px;
+        text-align: center;
+        padding: 10px;
+    }
+    .about-content p {
+        padding: 10px;
+    }
+   
+
+      .rotate-star{
+        display: none;
+      }
+      .lolypop-zoom-in{
+        display: none;
+      }
+
+      .about-section .slider-container{
+        width: auto;
+        margin-top: 20px;
+      }
+
+      .working-boxs{
+        margin-left: 40px;
+        margin-top: 225px;
+        /* margin: auto; */
+        height: auto;
+        width: 80%;
+        flex-direction: column;
+    }
+    .working-box-1{
+        margin-top: -40px;
+        width: 80%;
+        height: auto;
+        padding: 10px;
+    }
+    .working-box-1 span.text {
+        font-size: 1em;
+        line-height: 20px;
+      }
+      .record{
+        width: auto;
+        height: 115vh;
+      }
+      .record img{
+        display: none;
+      }
+      .class .class-content h1 {
+        padding: 10px;
+        font-size: 22px;
+    }
+      .class .dog-zoom-in img{
+        display: none;
+      }
+      .class .container {
+        margin-left: -8%;
+    }
+      .class-cards-1-content{
+        width: 130%;
+        height: auto;
+       
+    }
+      .blog-scroll .sliding-cards{
+        grid-auto-columns: calc((100% / 1) - 12px);
+        gap: 50px;
+        margin-left: 65px;
+      }
+      .blog .cloud-img{
+        display: none;
+      }
+      .blog .apple-img{
+        display: none;
+      }
+      .blog .content{
+        width: 100%;
+      }
+      .car-2-img{
+        display: none;
+      }
+      .blog .apple-img{
+        display: none;
+    }
+    .appointment .content{
+        margin-top: 20px;
+      }
+      .appointment .content h4{
+        text-align: center;
+      }
+      .appointment .contact input {
+        width: 110%;
+    }
+      .appointment .contact .email,.appointment .contact textarea {
+        width: 110%;
+    }
+
+    .appointment .content h1 {
+        font-size: 24px;
+        padding: 10px;
+        text-align: center;
+    }
+    .staff .content h1 {
+        padding: 10px;
+    }
+}
+
+@media only screen and (max-width: 241px) {
+    .top-bar{
+        display: none;
+    }
+    .slides img{
+        width: auto;
+        height: 100vh;
+        /* position: absolute; */
+      }
+      /* .hero-content {
+        margin-top: 500%;
+      } */
+
+      .rotate-star{
+        display: none;
+      }
+      .lolypop-zoom-in{
+        display: none;
+      }
+
+      .about-section .slider-container{
+        width: auto;
+        margin-top: 20px;
+      }
+
+      .working-boxs{
+        margin-left: 40px;
+        margin-top: 225px;
+        /* margin: auto; */
+        height: auto;
+        width: 80%;
+        flex-direction: column;
+    }
+    .working-box-1{
+        margin-top: -40px;
+        width: 80%;
+        height: auto;
+        padding: 10px;
+    }
+    .working-box-1 span.text {
+        font-size: 1em;
+        line-height: 20px;
+      }
+      .record{
+        width: auto;
+        height: 210vh;
+      }
+      .record img{
+        display: none;
+      }
+      .class .dog-zoom-in img{
+        display: none;
+      }
+      .class .container {
+        margin-left: -8%;
+    }
+      .class-cards-1-content{
+        width: 150%;
+        height: auto;
+       
+    }
+    .class-cards-1-content button {
+        width: 100px;
+    }
+    .sliding-cards .card-1 {
+        width: 110%;
+        margin-left: -45px;
+    }
+      .blog-scroll .sliding-cards{
+        grid-auto-columns: calc((100% / 1) - 12px);
+        gap: 50px;
+        margin-left: 65px;
+      }
+      .blog .cloud-img{
+        display: none;
+      }
+      .blog .apple-img{
+        display: none;
+      }
+      .blog .content{
+        width: 100%;
+      }
+      .car-2-img{
+        display: none;
+      }
+      .blog .apple-img{
+        display: none;
+    }
+    .appointment .content{
+        margin-top: 20px;
+      }
+      .appointment .content h4{
+        text-align: center;
+      }
+}

@@ -120,6 +120,9 @@
         width: 110%;
         height: auto;
     }
+    .class-cards-1 img {
+        margin-left: 20px;
+    }
 
       .blog-scroll .sliding-cards{
         grid-auto-columns: calc((100% / 2) - 12px);
@@ -218,6 +221,9 @@
       .class .dog-zoom-in img{
         display: none;
       }
+      .class-cards-1 img {
+        margin-left: 15px;
+    }
 
       .class-cards-1-content{
         width: 110%;
@@ -321,6 +327,9 @@
       .class .dog-zoom-in img{
         display: none;
       }
+      .class-cards-1 img {
+        margin-left: 10px;
+    }
 
       .class-cards-1-content{
         width: 110%;

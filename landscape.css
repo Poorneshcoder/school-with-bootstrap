@@ -32,6 +32,9 @@ and (orientation:landscape){
     .lolypop-zoom-in img {
         display: none;
     }
+    .record .container {
+        margin-left: 200px;
+    }
 }
 
 /* landscape media queary for mobile for Nokia Lumia 920 emulator */
@@ -55,6 +58,12 @@ and (orientation:landscape){
     }
     .service .service-content h1 {
         font-size: 32px;
+    }
+    /* .record .container{
+        margin-left: 90px;
+    } */
+    .record .working-box-1{
+        margin-left: 90px;
     }
 }
 
@@ -98,14 +107,14 @@ and (orientation:landscape){
     .about-content h1 {
         font-size: 32px;
     }
-    .working-boxs{
+    /* .working-boxs{
         height: auto;
         display: flex;
         flex-wrap: wrap;
-    }
+    } */
     .working-box-1{
-        margin-top: -40px;
-        flex: 40%;
+        /* margin-top: -40px;
+        flex: 40%; */
         height: auto;
         padding: 10px;
     }
@@ -115,6 +124,9 @@ and (orientation:landscape){
       }
       .record{
         height: auto;
+    }
+    .record .container {
+        margin-left: 250px;
     }
     .class .dog-zoom-in img {
         display: none;
@@ -180,14 +192,14 @@ and (orientation:landscape){
         margin-left: 15%;
     }
 
-    .working-boxs{
+    /* .working-boxs{
         height: auto;
         display: flex;
         flex-wrap: wrap;
-    }
+    } */
     .working-box-1{
-        margin-top: -40px;
-        flex: 40%;
+        /* margin-top: -40px;
+        flex: 40%; */
         height: auto;
         padding: 10px;
     }
@@ -197,6 +209,9 @@ and (orientation:landscape){
       }
       .record{
         height: auto;
+      }
+      .record .container{
+        margin-left: 150px;
       }
       .class-cards-1-content{
         width: 110%;
@@ -254,14 +269,14 @@ and (orientation:landscape){
     .slider-container {
         margin-left: 15%;
     }
-    .working-boxs{
+    /* .working-boxs{
         height: auto;
         display: flex;
         flex-wrap: wrap;
-    }
+    } */
     .working-box-1{
-        margin-top: -40px;
-        flex: 40%;
+        /* margin-top: -40px;
+        flex: 40%; */
         height: auto;
         padding: 10px;
     }
@@ -271,6 +286,9 @@ and (orientation:landscape){
       }
       .record{
         height: auto;
+      }
+      .record .container{
+        margin-left: 150px;
       }
       .class-cards-1-content {
         width: 110%;

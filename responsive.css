@@ -20,16 +20,17 @@
     .slider-container {
         margin-left: 15%;
     }
-      .working-boxs{
+      /* .working-boxs{
         height: auto;
         display: flex;
         flex-wrap: wrap;
-    }
+    } */
     .working-box-1{
-        margin-top: -40px;
-        flex: 40%;
+        /* margin-top: -40px;
+        flex: 40%; */
         height: auto;
         padding: 10px;
+        margin-left: 50px;
     }
     .working-box-1 span.text {
         font-size: 1em;
@@ -97,14 +98,14 @@
       .slider-container{
         margin-top: 20px;
       }
-      .working-boxs{
+      /* .working-boxs{
         height: auto;
         display: flex;
         flex-wrap: wrap;
-    }
+    } */
     .working-box-1{
-        margin-top: -40px;
-        flex: 40%;
+        /* margin-top: -40px;
+        flex: 40%; */
         height: auto;
         padding: 10px;
     }
@@ -114,6 +115,9 @@
       }
       .record{
         height: auto;
+      }
+      .record .container{
+        margin-left: 150px;
       }
       .class .container {
         margin-left: 1%;
@@ -206,19 +210,20 @@
         margin-top: 20px;
       }
 
-      .working-boxs{
+      /* .working-boxs{
         margin-left: 40px;
         margin-top: 225px;
-        /* margin: auto; */
+        
         height: auto;
         width: 80%;
         flex-direction: column;
-    }
+    } */
     .working-box-1{
-        margin-top: -40px;
+        /* margin-top: -40px; */
         width: 80%;
         height: auto;
         padding: 10px;
+        margin-left: 50px;
     }
     .working-box-1 span.text {
         font-size: 1em;
@@ -226,8 +231,11 @@
       }
       .record{
         width: auto;
-        height: 86vh;
+        height: auto;
       }
+      /* .record .container{
+        margin-left: 45px;
+      } */
       .record img{
         display: none;
       }
@@ -321,7 +329,7 @@
         flex-direction: column;
     }
     .working-box-1{
-        margin-top: -40px;
+        /* margin-top: -40px; */
         width: 80%;
         height: auto;
         padding: 10px;
@@ -332,7 +340,10 @@
       }
       .record{
         width: auto;
-        height: 100vh;
+        height: auto;
+      }
+      .record .container{
+        margin-left: 40px;
       }
       .record img{
         display: none;
@@ -439,16 +450,15 @@
         margin-top: 20px;
       }
 
-      .working-boxs{
+      /* .working-boxs{
         margin-left: 40px;
         margin-top: 225px;
-        /* margin: auto; */
         height: auto;
         width: 80%;
         flex-direction: column;
-    }
+    } */
     .working-box-1{
-        margin-top: -40px;
+        /* margin-top: -40px; */
         width: 80%;
         height: auto;
         padding: 10px;
@@ -459,7 +469,10 @@
       }
       .record{
         width: auto;
-        height: 115vh;
+        height: auto;
+      }
+      .record .container{
+        margin-left: 35px;
       }
       .record img{
         display: none;
@@ -530,14 +543,18 @@
     .navbar-toggler{
         width: auto;
     }
+    .hero-content{
+      display: none;
+    }
     .slides img{
-        width: auto;
-        height: 100vh;
+        width: 100%;
+        height: auto;
         /* position: absolute; */
       }
-      /* .hero-content {
-        margin-top: 500%;
-      } */
+
+      .service .service-content h1 {
+        font-size: 12px;
+    }
 
       .rotate-star{
         display: none;
@@ -545,6 +562,12 @@
       .lolypop-zoom-in{
         display: none;
       }
+      .about-content{
+        text-align: center;
+      }
+      .about-content h1 {
+        font-size: 12px;
+    }
 
       .about-section .slider-container{
         width: auto;
@@ -560,7 +583,6 @@
         flex-direction: column;
     }
     .working-box-1{
-        margin-top: -40px;
         width: 80%;
         height: auto;
         padding: 10px;
@@ -571,11 +593,14 @@
       }
       .record{
         width: auto;
-        height: 210vh;
+        height: auto;
       }
       .record img{
         display: none;
       }
+      .class .class-content h1 {
+        font-size: 18px;
+    }
       .class .dog-zoom-in img{
         display: none;
       }
@@ -590,6 +615,12 @@
     .class-cards-1-content button {
         width: 100px;
     }
+    .appointment .content{
+      text-align: center;
+    }
+    .appointment .content h1 {
+      font-size: 18px;
+  }
     .sliding-cards .card-1 {
         width: 110%;
         margin-left: -45px;

@@ -502,13 +502,13 @@ button a{
 /* section-4  record section */
 
 .record{
-    padding-top: 150px;
+    padding-top: 50px;
     height: auto;
     background: #dbeaf7;
 }
 .record img{
     width: 100%;
-    margin-top: 180px;
+    margin-top: 50px;
 }
 .record-rotate-img{
     background: #f9f6ef;
@@ -518,7 +518,7 @@ button a{
     margin-left: 10%;
     animation: rotateShape 10s linear infinite;
 }
-.working-boxs {
+/* .working-boxs {
     position: absolute;
     width: 80vw;
     transform: translate(-50%, -50%);
@@ -528,18 +528,18 @@ button a{
     justify-content: space-around;
     gap: 10px;
 
-  }
+  } */
   .working-box-1 {
-    width: 40vmin;
-    height: 28vmin;
+    width: 50vmin;
+    height: 28vh;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    padding: 1em 0;
+    /* padding: 2em 0; */
     position: relative;
     font-size: 16px;
-    margin: 0 0 24px 0;
-    padding: 32px 24px;
+    margin: 0 0 15px 0;
+    padding: 50px;
 
   }
   .working-box-1 i {

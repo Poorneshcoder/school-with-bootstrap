@@ -32,7 +32,10 @@ and (orientation:landscape){
     .lolypop-zoom-in img {
         display: none;
     }
-    .record .container {
+    /* .record .container {
+        margin-left: 200px;
+    } */
+    .working-box-1{
         margin-left: 200px;
     }
 }
@@ -117,6 +120,7 @@ and (orientation:landscape){
         flex: 40%; */
         height: auto;
         padding: 10px;
+        margin-left: 250px;
     }
     .working-box-1 span.text {
         font-size: 1em;
@@ -125,9 +129,9 @@ and (orientation:landscape){
       .record{
         height: auto;
     }
-    .record .container {
+    /* .record .container {
         margin-left: 250px;
-    }
+    } */
     .class .dog-zoom-in img {
         display: none;
     }
@@ -280,6 +284,7 @@ and (orientation:landscape){
         flex: 40%; */
         height: auto;
         padding: 10px;
+        margin-left: 150px;
     }
     .working-box-1 span.text {
         font-size: 1em;
@@ -288,9 +293,9 @@ and (orientation:landscape){
       .record{
         height: auto;
       }
-      .record .container{
+      /* .record .container{
         margin-left: 150px;
-      }
+      } */
       .class-cards-1-content {
         width: 110%;
     }

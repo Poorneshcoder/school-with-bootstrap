@@ -289,6 +289,7 @@ button a{
 }
 .service-cards .card-1 p{
     font-size: 18px;
+    padding: 10px;
 }
 .service-cards .card-1:hover{
     background-color: #fe5d37;
@@ -323,6 +324,7 @@ button a{
 }
 .service-cards .card-2 p{
     font-size: 18px;
+    padding: 10px;
 }
 .service-cards .card-2:hover{
     background-color: #786acf;
@@ -357,6 +359,7 @@ button a{
 }
 .service-cards .card-3 p{
     font-size: 18px;
+    padding: 10px;
 }
 .service-cards .card-3:hover{
     background-color: #fec624;
@@ -394,6 +397,7 @@ button a{
 }
 .service-cards .card-4 p{
     font-size: 18px;
+    padding: 10px;
 }
 
 .service-cards .card-4:hover{

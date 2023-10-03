@@ -68,6 +68,10 @@
     .appointment .content h1 {
         font-size: 36px;
     }
+    .class .class-content {
+      padding: 30px 0px;
+      margin-bottom: -50px;
+  }
 }
 
 @media only screen and (min-width: 462px) and (max-width: 604px) {
@@ -171,6 +175,16 @@
         width: 130%;
         margin-left: -20px;
     }
+    .class .class-content {
+      padding: 30px 0px;
+      margin-bottom: -50px;
+  }
+    .blog {
+      padding: 30px 0px;
+  }
+    .blog .content {
+      margin-bottom: -100px;
+  }
 }
 
 @media only screen and (min-width: 362px) and (max-width: 461px) {
@@ -268,6 +282,7 @@
       }
       .blog .content{
         width: 100%;
+        margin-bottom: -100px;
       }
       .car-2-img{
         display: none;
@@ -286,6 +301,22 @@
     .appointment .content h1 {
         font-size: 38px;
     }
+    .class .class-content {
+      padding: 30px 0px;
+  }
+  .staff {
+    padding: 20px 0px;
+}
+      .staff .content h1 {
+        padding: 15px;
+    }
+    .blog {
+      padding: 30px 0px;
+  }
+  .footer{
+    padding: 20px;
+  }
+
 }
 
 @media only screen and (min-width: 322px) and (max-width: 361px) {
@@ -354,6 +385,9 @@
       .class .container {
         margin-left: -3%;
     }
+      .class .class-content {
+        padding: 30px 0px;
+    }
       .class .dog-zoom-in img{
         display: none;
       }
@@ -378,6 +412,7 @@
       }
       .blog .content{
         width: 100%;
+        margin-bottom: -100px;
       }
       .car-2-img{
         display: none;
@@ -394,6 +429,21 @@
     }
     .appointment .contact input {
         width: 90%;
+    }
+    .staff{
+      padding: 30px 0px;
+    }
+    .staff .content h1 {
+      padding: 15px;
+  }
+    .blog{
+      padding: 0px;
+    }
+    .numbers{
+      margin-bottom: 30px;
+    }
+    .footer{
+      padding: 20px;
     }
 }
 
@@ -474,6 +524,7 @@
       .record{
         width: auto;
         height: auto;
+        margin-bottom: 30px;
       }
       /* .record .container{
         margin-left: 35px;
@@ -481,6 +532,9 @@
       .record img{
         display: none;
       }
+      .class .class-content {
+        padding: 0px 0px;
+    }
       .class .class-content h1 {
         padding: 10px;
         font-size: 22px;
@@ -496,10 +550,17 @@
         height: auto;
        
     }
+    .staff {
+      padding: 50px 0px;
+    }
       .blog-scroll .sliding-cards{
         grid-auto-columns: calc((100% / 1) - 12px);
         gap: 50px;
         margin-left: 65px;
+        padding-top: 50px;
+      }
+      .blog{
+        padding: 30px 0px;
       }
       .blog .cloud-img{
         display: none;
@@ -513,9 +574,6 @@
       .car-2-img{
         display: none;
       }
-      .blog .apple-img{
-        display: none;
-    }
     .appointment .content{
         margin-top: 20px;
         text-align: center;
@@ -532,11 +590,14 @@
         padding: 10px;
     }
     .staff .content h1 {
-        padding: 10px;
+        padding: 15px;
     }
     .sliding-cards .card-1 img {
         width: 150%;
         margin-left: -25px;
+    }
+    .footer{
+      padding: 20px;
     }
 }
 

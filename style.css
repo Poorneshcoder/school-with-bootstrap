@@ -20,6 +20,9 @@
     justify-content: space-between;
 }
 
+.top-bar .font-links i{
+    padding: 10px;
+}
 
 
 /* header bar */
@@ -104,7 +107,7 @@ button a{
 
 [type=button]:not(:disabled), [type=reset]:not(:disabled), [type=submit]:not(:disabled), button:not(:disabled) {
     cursor: pointer;
-    margin-left: 20px;
+    /* margin-left: 10px; */
     background: #9c29b2;
     border: none;
     border-radius: 30px;
@@ -112,7 +115,10 @@ button a{
 .navbar-expand-lg .navbar-nav .nav-link {
     padding-right: var(--bs-navbar-nav-link-padding-x);
     padding-left: var(--bs-navbar-nav-link-padding-x);
-    margin-left: 30px;
+}
+
+.nav-item{
+    margin: 30px;
 }
 
 /* section-1  hero section */
@@ -280,7 +286,7 @@ button a{
 
 
 .service-cards .card-1 img{
-    padding: 10px;
+    padding: 20px;
 }
 .service-cards .card-1 h1{
     padding: 10px;
@@ -315,7 +321,7 @@ button a{
     border-radius: 50px;
 }
 .service-cards .card-2 img{
-    padding: 10px;
+    padding: 20px;
 }
 .service-cards .card-2 h1{
     padding: 10px;
@@ -350,7 +356,7 @@ button a{
     border-radius: 50px;
 }
 .service-cards .card-3 img{
-    padding: 10px;
+    padding: 20px;
 }
 .service-cards .card-3 h1{
     padding: 10px;
@@ -388,7 +394,7 @@ button a{
     border-radius: 50px;
 }
 .service-cards .card-4 img{
-    padding: 10px;
+    padding: 20px;
 }
 .service-cards .card-4 h1{
     padding: 10px;
@@ -458,6 +464,7 @@ button a{
 /* CSS for the image slider container */
 .slider-container {
     width: 500px;
+    margin: 0 auto;
     overflow: hidden;
     position: relative;
 }
@@ -470,7 +477,7 @@ button a{
 }
 
 /* CSS for navigation buttons */
-.prev, .next {
+/* .prev, .next {
     cursor: pointer;
     position: absolute;
     top: 50%;
@@ -484,6 +491,21 @@ button a{
     transition: 0.6s ease;
     border: none;
     border-radius: 20px;
+} */
+.prev, .next{
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    height: 50px;
+    width: 50px;
+    padding: 16px;
+    margin-top: 22px;
+    line-height: 5px;
+    color: white;
+    background-color: #9c29b2;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
 }
 
 /* Position the navigation buttons */
@@ -534,15 +556,13 @@ button a{
 
   } */
   .working-box-1 {
-    width: 50vmin;
-    height: 28vh;
+    /* width: 50vmin;
+    height: 28vh; */
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    /* padding: 2em 0; */
     position: relative;
     font-size: 16px;
-    margin: 0 0 15px 0;
     padding: 50px;
 
   }
@@ -557,12 +577,13 @@ button a{
     place-items: center;
     font-weight: 600;
     font-size: 3em;
+    line-height: 2;
   }
   .working-box-1 span.text {
     color: #103741;
     font-size: 1em;
     text-align: center;
-    pad: 0.7em 0;
+    padding: 1.3em 0;
     font-weight: 400;
     line-height: 0;
   }
@@ -616,7 +637,7 @@ button a{
   }
 
   .class-cards-1 img{
-    width: 100%;
+    width: 85%;
     margin-left: 30px;
     margin-bottom: -100px;
     border-radius: 50px;
@@ -643,7 +664,7 @@ button a{
     justify-content: space-between;
   }
   .class-cards-1-content{
-    width: 125%;
+    width: auto;
     height: auto;
     padding: 25px;
     border-radius: 50px;
@@ -704,6 +725,12 @@ button a{
    padding: 20px;
    background: white;
    border-radius: 50px;
+}
+.expert-content-box-1 img{
+    padding: 10px;
+}
+.expert-content-box-1 h2{
+    padding: 10px;
 }
 
 .expert-content-box-1 p{
@@ -766,6 +793,7 @@ button a{
 .appointment .content{
     width: auto;
     padding: 10px;
+    margin: 0 auto;
 }
 .appointment .content h1{
     color: #103741;
@@ -1050,7 +1078,6 @@ button a{
 .footer{
     width: auto;
     height: auto;
-    margin-top: -20px;
     background-image: url(./images/footer-4.jpg);
     background-repeat: no-repeat;
     background-position: center center;

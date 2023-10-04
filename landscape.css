@@ -35,9 +35,9 @@ and (orientation:landscape){
     /* .record .container {
         margin-left: 200px;
     } */
-    .working-box-1{
+    /* .working-box-1{
         margin-left: 200px;
-    }
+    } */
 }
 
 /* landscape media queary for mobile for Nokia Lumia 920 emulator */
@@ -118,9 +118,7 @@ and (orientation:landscape){
     .working-box-1{
         /* margin-top: -40px;
         flex: 40%; */
-        height: auto;
         padding: 10px;
-        margin-left: 250px;
     }
     .working-box-1 span.text {
         font-size: 1em;
@@ -136,7 +134,10 @@ and (orientation:landscape){
         display: none;
     }
     .class-cards-1-content {
-        width: 115%;
+        width: 100%;
+    }
+    .class-cards-1 img {
+        margin-left: 35px;
     }
     .appointment .contact input {
         width: 90%;
@@ -151,7 +152,7 @@ and (orientation:landscape){
         display: none;
     }
     .blog-scroll .sliding-cards{
-        grid-auto-columns: calc((100% / 2) - 12px);
+        grid-auto-columns: calc((100% / 1) - 12px);
         gap: 30px;
       }
       .blog .cloud-img{
@@ -168,6 +169,11 @@ and (orientation:landscape){
         padding: 30px 0px;
         margin-bottom: -50px;
     }
+    /* .sliding-cards .card-1 img {
+        width: 150%;
+        margin-top: -110px;
+        margin-left: -20px;
+    } */
 
 
 }
@@ -179,6 +185,9 @@ and (orientation:landscape){
         height: auto;
     }
     .hero-content{
+        display: none;
+    }
+    .class .dog-zoom-in img {
         display: none;
     }
     .slides img {
@@ -210,7 +219,7 @@ and (orientation:landscape){
         flex: 40%; */
         height: auto;
         padding: 10px;
-        margin-left: 100px;
+        /* margin-left: 100px; */
     }
     .working-box-1 span.text {
         font-size: 1em;
@@ -223,8 +232,11 @@ and (orientation:landscape){
         margin-left: 150px;
       } */
       .class-cards-1-content{
-        width: 110%;
+        width: 100%;
         height: auto;
+    }
+    .class-cards-1 img {
+        margin-left: 50px;
     }
 
       .blog-scroll .sliding-cards{
@@ -294,7 +306,7 @@ and (orientation:landscape){
         flex: 40%; */
         height: auto;
         padding: 10px;
-        margin-left: 150px;
+        /* margin-left: 150px; */
     }
     .working-box-1 span.text {
         font-size: 1em;
@@ -307,7 +319,7 @@ and (orientation:landscape){
         margin-left: 150px;
       } */
       .class-cards-1-content {
-        width: 110%;
+        width: 100%;
     }
     .appointment .contact input{
         width: 43%;
@@ -328,6 +340,10 @@ and (orientation:landscape){
       .blog .apple-img{
         margin-left: -100px;
       }
+      .class-cards-1 img {
+        width: 85%;
+        margin-left: 50px;
+    }
  }
 
 
@@ -341,6 +357,9 @@ and (orientation:landscape){
     }
     .logo img{
         width: auto;
+    }
+    .nav-item {
+        margin: 2px;
     }
     .header-bar-section .links button, .header-bar-section .links .fa-magnifying-glass,
     .header-bar-section .links .fa-bars{
@@ -368,6 +387,12 @@ and (orientation:landscape){
         letter-spacing: 1px;
         margin-bottom: 0px;
         margin-top: 80px;
+    }
+    .working-box-1 span.text {
+        width: 130%;
+    }
+    .class-cards-1 img {
+        margin-left: 20px;
     }
     .slides img {
         width: 100%;
